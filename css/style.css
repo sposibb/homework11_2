@@ -125,3 +125,11 @@ p {
 .active_page {
   border-top: 3px solid #ff6033;
 }
+a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #262626;
+}
