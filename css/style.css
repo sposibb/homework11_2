@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+.section1 {
+  position: relative;
+  background: url(/img/BG.jpg) center center;
+  background-size: cover;
+}
+.bgimage {
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 180px;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 282px;
+}
+.menu li {
+  padding-right: 36px;
+}
+nav {
+  margin-top: -30px;
+}
+h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  color: #262626;
+  margin-bottom: 15px;
+  padding-left: 180px;
+}
+p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  padding-left: 180px;
+  margin-bottom: 28px;
+}
+button {
+  margin-left: 180px;
+  width: 200px;
+  height: 55px;
+  background: #ff6033;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 257px;
+}
+button span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.scroll {
+  position: absolute;
+  width: 24px;
+  height: 40px;
+  background: url(/img/ScrollIcon.png);
+  top: 80%;
+  left: 50%;
+  margin-bottom: 70px;
+}
